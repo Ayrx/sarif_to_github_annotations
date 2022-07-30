@@ -1,0 +1,12 @@
+name: "Process SARIF file"
+
+inputs:
+  sarif_file:
+    description: "SARIF file to process"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
+  args:
+    - ${{ inputs.sarif_file }}
