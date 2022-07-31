@@ -12,6 +12,6 @@ inputs:
 
 runs:
   using: "docker"
-  image: "ghcr.io/Ayrx/sarif_to_github_annotations:latest"
+  image: "docker://ghcr.io/Ayrx/sarif_to_github_annotations:v0.2.1"
   args:
     - ${{ inputs.sarif_file }}
