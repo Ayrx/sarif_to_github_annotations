@@ -1,4 +1,9 @@
 name: "Process SARIF file"
+description: "Process SARF file into GitHub annotations."
+
+branding:
+  icon: package
+  color: black
 
 inputs:
   sarif_file:
