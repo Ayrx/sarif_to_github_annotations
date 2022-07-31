@@ -5,7 +5,7 @@ GitHub annotations.
 
 ```yaml
 - if: failure()
-uses: Ayrx/sarif_to_github_annotations@v0.1.0
+uses: Ayrx/sarif_to_github_annotations@v0.2.0
 with:
   sarif_file: semgrep.sarif
 ```
